@@ -26,6 +26,7 @@ namespace calculation
                 // adding volume calculation provided in line 12
                 // dots have to be used to provide proper volume calculation otherwise it'll give an incorrect answer
                 double volumeOfSphere=4.0/3.0*pi*r*r*r; //it matters little if numbers are wrapped in parenthesis, result is same
+                //also numbers must be double digit (because of double)
 
                 // $@ means multiple lines of strings
                 Console.WriteLine($@"
